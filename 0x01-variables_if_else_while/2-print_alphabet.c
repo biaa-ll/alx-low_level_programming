@@ -1,29 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
  * main - Entry point
- * Return: Always 0 (Success/correct)
  *
+ *Return: Always 0 (Succes/correct)
  */
 int main(void)
-
 {
-char lower;
-char upper;
-
-for (lower = 'a'; lower <= 'z'; lower++)
+char alpha;
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-putchar(lower);
+putchar(alpha);
 }
- 
-for (upper = 'A'; upper <= 'Z'; upper++)
-{
-putchar(upper);
-}
-
-putchar("\n");
- 
+putchar('\n');
 return (0);
 }
