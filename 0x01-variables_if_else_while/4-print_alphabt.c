@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
- * 
+ * main - Entry point
+ *
  * Return: Always 0 (Success/correct)
  */
 
 int main(void)
 {
-  char alpha;
+char alpha;
 
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
