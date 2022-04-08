@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char lower;
+char upper;
+for (lower = 'a'; lower <= 'z'; lower++)
 {
-putchar(alphabet);
+putchar(lower);
 }
-for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+for (upper = 'A'; upper <= 'Z'; upper++)
 {
-putchar(alphabet);
+putchar(upper);
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
