@@ -13,6 +13,6 @@ for (alpha = 122; alpha >= 97; alpha--)
 {
 putchar (alpha);
 }
-putchar("\n");
+ putchar('\n');
 return (0);
 }
