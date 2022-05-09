@@ -4,7 +4,7 @@
  * _atoi_digit - convert a char to integer.
  * @x: character to convert.
  * Return: integer.
- **/
+**/
 int _atoi_digit(char x)
 {
 unsigned int res;
@@ -16,7 +16,7 @@ return (res);
  * _isNumber - Define if a string is a number.
  * @argv: Pointer to string.
  * Return: success (0).
- **/
+**/
 int _isNumber(char *argv)
 {
 int i;
@@ -30,7 +30,7 @@ return (0);
  * @nmemb: number of elements.
  * @size: size of element.
  * Return: pointer to array.
- **/
+**/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *tab;
@@ -50,7 +50,7 @@ return (tab);
  * @a3: array for result.
  * @lena: length of array a3.
  * Return: pointer to array.
- **/
+**/
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 {
 int mul = 0, i, k;
@@ -75,7 +75,7 @@ return (a3);
  * print_array - print all digits of array.
  * @nb: number of elements to print.
  * @a: array of elements.
- **/
+**/
 void print_array(char *a, int nb)
 {
 int i = 0;
@@ -94,7 +94,7 @@ _putchar('\n');
  *@argc: array length.
  *@argv: array.
  *Return: 0.
- */
+*/
 int main(int argc, char *argv[])
 {
 int i, c, len1, len2, lenres;
