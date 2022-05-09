@@ -23,7 +23,6 @@ l++;
 }
 return (wc);
 }
-}
 
 /**
  * _trspace -Moves adress to remove trailig whitespaces
