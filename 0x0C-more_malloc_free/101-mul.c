@@ -121,7 +121,7 @@ return (0);
 }
 for (i = len2 - 1, c = 0; i >= 0; i--)
 {
-tabres = mul_array(argv[1], len1, argv[2][i], tabres, (lenres - 1 - c));     
+tabres = mul_array(argv[1], len1, argv[2][i], tabres, (lenres - 1 - c));
 c++;
 }
 print_array(tabres, lenres);
